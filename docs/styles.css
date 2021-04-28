@@ -1,7 +1,7 @@
 /* Master styles*/
 body {
     margin: 0px;
-    background-color: 
+    background-color:white 
 }
 
 .container {
@@ -10,16 +10,40 @@ body {
 }
 
 .about-container{
-    width: 60%;
-    height: 500px;
-    background-color: #C5919D;
+    width: 150%;
+    height: 600px;
+    background-color: #9ABEC2;
     border-radius: 20px;
     box-shadow: 4px 4px 10px rgba(44,56, 83, 0.8);
     display: flex;
-    margin: 80px auto 15px auto;
+    margin: 300px auto 15px auto;
     position: relative;
     justify-content: space-evenly;
     align-items: center;   
+}
+
+.about-container img{
+    height:300px;
+}
+
+.about-text{
+    width:500px;
+}
+
+.about-text p:nth-child(1){
+    color: #fefefc;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: script MJ hand, cursive;
+    text-align: center;
+
+}
+
+.about-text p:nth-child(2){
+    color: #fefefc;
+    font-size: 28px;
+    font-family: cursive;
+    text-align: center;
 }
 
 /* Nav styles*/
@@ -29,7 +53,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 90px;
-    background-color: #849eaf;
+    background-color: #975665;
     box-shadow: 5px 5px 10px rgba(44, 56, 83, 0.5); 
 }
 .nav-wrapper {
