@@ -20,13 +20,13 @@ a{
 }
 
 .about-container{
-    width: 99%;
+    width: 150%;
     height: 600px;
     background-color: #9ABEC2;
     border-radius: 20px;
     box-shadow: 4px 4px 10px rgba(44,56, 83, 0.8);
     display: flex;
-    margin: 100px auto 15px auto;
+    margin: 300px auto 15px auto;
     position: relative;
     justify-content: space-evenly;
     align-items: center;   
@@ -37,7 +37,7 @@ a{
 }
 
 .about-text{
-    width:400px;
+    width:500px;
 }
 
 .about-text p:nth-child(1){
@@ -112,4 +112,34 @@ nav ul li a{
 nav ul li a:hover {
     border-bottom:1px solid white;
     color:white;
+}
+
+
+.copyright{
+    font-size: 10px;
+    font-family: garamound;
+}
+
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #915473;
+    margin: 0px 10px;
+    border-radius: 50%;
+    border: 1px solid #fefefc
+}
+
+.social-icons a:hover{
+    border: 1px solid #fefefc;
+    background-color: #2c3853;
+}
+.social-icons{
+    display: flex;
+}
+
+.social-icons i{
+    color: #fefefc;
 }

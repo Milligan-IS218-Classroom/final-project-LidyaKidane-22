@@ -2,64 +2,53 @@
 <html>
     <head>
        <meta charset="utf-8" /> 
-       <meta name="viewport" content="width=device-width, intial-scale=1">
-        <title> Resume </title>
-        <link href="resume.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">">
-        <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+        <title>About Me </title>
+        <link rel="stylesheet" href="Resume.css">
     </head>
     <body>
         <!-----Navigation-->
-        <div class="container"> 
-            <div class="nav-wrapper">
-              <div class="left-side">
-                 <div class="nav-link-wrapper">  
-                     <a href="index.html">Home</a>
-                 </div>
+        <section class="navigation">
+              <nav id="nav-wrapper">
+                <ul>
+                    <li><a href="Index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Resume.html">RESUME</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+    
+                </ul>
+             </nav>
+        </section>
 
-                 <div class="nav-link-wrapper">
-                    <a href="about.html">ABOUT</a>
-                        </div>
-                        
-                         <div class="nav-link-wrapper">
-                            <a href="Resume.html">RESUME</a>
-                                </div>  
-                                <div class="nav-link-wrapper">
-                                    <a href="Contact.html">CONTACT</a>
-                                        </div>  
-              </div>
-                
-             <div class="resume-container">
-                 <img src="Official resume_1.jpg">
-                 </div>
-
-                 <button id="download-pdf">DOWNLOAD MY RESUME</button>
-                 <script>
-                    const downloadPdf = document
-                            .querySelector("#download-pdf");
-                  
-                    const submitForm = document
-                            .querySelector("#submit-form");
-                  
-                    downloadPdf.addEventListener("click", () => {
-                  
-                            
-                    let element = document.createElement("a");
-                    element.href = "resumewebsite.pdf";
-                    element.download = "resumewebsite.pdf";
-                  
-                           
-                    document.documentElement.appendChild(element);
-                  
-                         
-                    element.click();
-                  
-                           
-                    document.documentElement.removeChild(element);
-
-                    submitForm.click();
-
-                    submitForm.click();
-                    });
-                    </script>
-                    <!----Footer------>
+        <button id="download-pdf">DOWNLOAD MY RESUME</button>
+                    <script>
+                        const downloadPdf = document
+                                .querySelector("#download-pdf");
+                      
+                        const submitForm = document
+                                .querySelector("#submit-form");
+                      
+                        downloadPdf.addEventListener("click", () => {
+                      
+                                
+                        let element = document.createElement("a");
+                        element.href = "Official resume_1.jpg";
+                        element.download = "Officiak resume_1.jpg";
+                      
+                               
+                        document.documentElement.appendChild(element);
+                      
+                             
+                        element.click();
+                      
+                               
+                        document.documentElement.removeChild(element);
+                      
+                                
+                        submitForm.click();
+                        });
+                     </script>
+         <footer>
+         </p>Contact me!</p>
+         </footer>
+    </body> 
+</html>
