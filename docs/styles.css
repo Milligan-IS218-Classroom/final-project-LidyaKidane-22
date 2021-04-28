@@ -1,6 +1,7 @@
 /* Master styles*/
 body {
     margin: 0px;
+    background-color: 
 }
 
 .container {
@@ -8,7 +9,29 @@ body {
     grid-template-columns: 1fr;
 }
 
+.about-container{
+    width: 60%;
+    height: 500px;
+    background-color: #C5919D;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(44,56, 83, 0.8);
+    display: flex;
+    margin: 80px auto 15px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+
 /* Nav styles*/
+.nav-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    background-color: #849eaf;
+    box-shadow: 5px 5px 10px rgba(44, 56, 83, 0.5); 
+}
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
