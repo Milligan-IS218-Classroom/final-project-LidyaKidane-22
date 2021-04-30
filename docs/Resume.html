@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+       <meta charset="utf-8" /> 
+        <title>Resume</title>
+        <link rel="stylesheet" href="Resume.css">
+    </head>
+    <body>
+        <!-----Navigation-->
+        <section class="navigation">
+              <nav id="nav-wrapper">
+                <ul>
+                    <li><a href="Index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Resume.html">RESUME</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+    
+                </ul>
+             </nav>
+        </section>
+
+        <button id="download-pdf">DOWNLOAD MY RESUME</button>
+                    <script>
+                        const downloadPdf = document
+                                .querySelector("#download-pdf");
+                      
+                        const submitForm = document
+                                .querySelector("#submit-form");
+                      
+                        downloadPdf.addEventListener("click", () => {
+                      
+                                
+                        let element = document.createElement("a");
+                        element.href = "Official resume_1.jpg";
+                        element.download = "Officiak resume_1.jpg";
+                      
+                               
+                        document.documentElement.appendChild(element);
+                      
+                             
+                        element.click();
+                      
+                               
+                        document.documentElement.removeChild(element);
+                      
+                                
+                        submitForm.click();
+                        });
+                     </script>
+         <footer>
+         </p>Contact me!</p>
+         </footer>
+    </body> 
+</html>
